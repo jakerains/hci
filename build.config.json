@@ -1,0 +1,15 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_ELEVENLABS_API_KEY": "${NEXT_PUBLIC_ELEVENLABS_API_KEY}",
+      "NEXT_PUBLIC_ELEVENLABS_VOICE_ID": "${NEXT_PUBLIC_ELEVENLABS_VOICE_ID}",
+      "NEXT_PUBLIC_ELEVENLABS_MODEL_ID": "${NEXT_PUBLIC_ELEVENLABS_MODEL_ID}",
+      "GROQ_API_KEY": "${GROQ_API_KEY}",
+      "GROQ_MODEL_ID": "${GROQ_MODEL_ID}"
+    },
+    "command": "npm run build",
+    "baseDirectory": ".",
+    "outputDirectory": ".next",
+    "installCommand": "npm install"
+  }
+} 
